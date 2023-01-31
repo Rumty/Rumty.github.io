@@ -1,9 +1,7 @@
-@media screen and (max-width:480px) {
- 
-	main {
-		width: 100%;
-	}
- 
+main {
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
 }
 
 body { min-height: 100vh; }
@@ -118,3 +116,10 @@ a.nav-link{
     background: var(--main-decor-color);
 }
 
+@media screen and (max-width:480px) {
+ 
+	main {
+		width: 100%;
+	}
+ 
+}
