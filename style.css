@@ -1,119 +1,110 @@
-body { min-height: 100vh; }
 
-img {
-	width:200px;
-	height:200px;
-	object-fit:cover;
-	border-radius:50%;
-	object-position:0px 0px;
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+	
+*/
+
+
+/* -------  General Styles ------- */
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+	background-image:url(images/backgrounds/subtle_white_mini_waves.png);
 }
 
-nav {
-	width: 100%;
-	height: 70px;
-	background-color: rgba(0, 195, 255, 0.192);
-	padding-top: 5px;
-	box-sizing: border-box;
-  }
-  ul {
-	display: flex;
-  }
-  li {
-	list-style: none;
-  }
-  a {
-	display: block;
-	text-decoration: none;
-	color: white;
-	margin-right: 35px;
-  }
-
-  footer{
-    width: 100%;
-    height: 50px;
-    background-color: rgba(0, 195, 255, 0.192);
-    margin: 0 auto;
-	text-align: center;
-  }
-
-  ::-webkit-Scrollbar{
-    width: 5px; 
-	background: rgba(5,5,5,1);
-}
-::-webkit-Scrollbar-thumb{
-	border-radius: 10px;
-	background: var(--main-decor-color);
-	box-shadow: inset 0 0 20px var(--main-decor-color);
-}
-::-webkit-Scrollbar-track{
-	margin-top: 80px;
-	border-radius: 10px;
+header {
+	height: 140px;
+	background-color: #8ccdd9;
+	background-image:url(images/backgrounds/subtle_brown_mini_waves.png);
 }
 
-.copyright {
-	color: #fff;
-	font-size: 1.2rem;
-	line-height: 40px;
+.logo {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 72px;
+  color: #313030;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+header h2 {
+	font-family: 'Montserrat', serif;
+	color: #313030;
+	margin: 0px;
+	font-size: 18px;
 	text-align: center;
 }
 
-header{
-	margin: 0 auto;
-	width: 100%;
-	height: 70px;
-	display: flex;
-    align-items: center; 
-	justify-content: space-around; 
-    background: transparent;
-	position: fixed;
-	top: 0;
-	transition: 0.3s;
-	z-index: 5;
-}
-.nav-show{
-	opacity: 0;
+footer {
+	background-color: #8ccdd9;
+	background-image:url(images/backgrounds/subtle_brown_mini_waves.png);
+
 }
 
-header:hover{
-	opacity: 1;
-	background: var(--main-header-background);
+section {
+	padding: 0 25%;
+  margin: 80px 0;
 }
 
-.logo img{
-	padding-top: 5px;
-	height: 50px;
-	cursor: pointer;
+/* -------  Type ------- */
+
+h1, h2, h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+	color: #41403e;
+  text-align: center;
+  font-weight: 500;
 }
 
-.nav-bar{
-	list-style:none;
-	position: relative;
-	display: inline-flex;
+h1 { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+
+p, li {
+ font-family: 'Montserrat', sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
 }
 
-a.nav-link{
-	margin: 2px;
-	padding: 5px 10px;
-	text-decoration: none;
-	color: var(--main-fonts-color);
-	font-family: var(--main-font-family);
-	cursor: pointer;
-	text-transform: uppercase;
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+a:link { color: #38786a; }
+a:visited { color: #38786a; }
+a:hover { color: #403933; }
+a:active { color: #403933; }
+a:hover {
+	text-decoration: underline;	
 }
 
-.active{
-	background: var(--main-decor-color);
+em {
+  font-weight: bold;
+  font-style: normal;
 }
 
-.nav-link:hover {
-	color: #000000;
-    background: var(--main-decor-color);
+footer p {
+	color: #343232;	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
 }
 
-@media screen and (max-width:480px) {
- 
-	main {
-		width: 100%;
-	}
- 
+/* -------  Elements ------- */
+
+img, iframe { 
+  width: 100%;	
+  border-radius: 8px;
+  border: 1px solid #c5c0b8;
+} 
+
+/* -------  Modifier styles ------- */
+
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid #494541;
 }
