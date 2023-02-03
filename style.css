@@ -103,13 +103,6 @@ img, iframe {
   border: 1px solid #c5c0b8;
 } 
 
-/* -------  Modifier styles ------- */
-
-.border-top {
-  padding-top: 80px;
-  border-top: 2px solid #494541;
-}
-
 /* -------  Button  ------- */
 
 .button_solid001 a {
