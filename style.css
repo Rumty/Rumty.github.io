@@ -103,6 +103,15 @@ img, iframe {
   border: 1px solid #c5c0b8;
 } 
 
+/* -------  Modifier styles ------- */
+
+.pill {
+  height:0px;
+  border-radius: 2px;
+  border: 2px solid hsl(0, 0%, 60%);
+  width: 80%;
+}
+
 /* -------  Button  ------- */
 
 .button_solid001 a {
