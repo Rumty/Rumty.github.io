@@ -138,7 +138,7 @@ a.nav-item:hover {
     color: #313131;
     transition: 0.3s ease-in-out;
     font-weight: 600;
-    background: #add6d7;
+    background: #bcc0c0;
     filter: drop-shadow(0px 2px 4px #ccc);
     border-radius: 3px;
 }
