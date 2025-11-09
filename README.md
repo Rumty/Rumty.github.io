@@ -1,4 +1,4 @@
-# Rumty's Portfolio
+# Azumi's Portfolio
 
 私のポートフォリオです、サイトは[こちら](https://Rumty.github.io)
 
